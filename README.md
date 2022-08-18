@@ -80,3 +80,17 @@ Then:
 
 ![image](https://user-images.githubusercontent.com/104793540/185448262-a3b10648-30c3-4e1e-8fa8-b28c2d2956ef.png)
 
+reverse proxy 
+- cd /etc
+- ls
+- cd nginx
+- cd sites-available
+- sudo nano default
+- proxy_pass http://localhost:3000;
+
+![image](https://user-images.githubusercontent.com/104793540/185452344-3e82169d-37a1-4cd9-83c2-50418312055f.png)
+
+- sudo nginx -t
+- sudo systemctl restart nginx
+
+![image](https://user-images.githubusercontent.com/104793540/185453023-57ca411a-a4ff-4b0a-993b-6af3a11cbc68.png)
