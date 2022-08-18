@@ -6,7 +6,9 @@
  Benifits 
  cost effective, sacalbe, highly available 
  
- 
+ ![image](https://user-images.githubusercontent.com/104793540/185407358-24ef7a32-ac65-4378-8d6e-d0b579de02de.png)
+
+
 - OS windows10/11 - ubuntu bionic16.04LTS - vagrant box online 
 - Process power 
 - Ram 
