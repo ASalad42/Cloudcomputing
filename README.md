@@ -2,11 +2,15 @@
 
 # Cloudcomputing
   </div>
-  
-- OS windows
+ 
+ Benifits 
+ cost effective, sacalbe, highly available 
+ 
+ 
+- OS windows10/11 - ubuntu bionic16.04LTS - vagrant box online 
 - Process power 
 - Ram 
-- Ssd
+- SSD - storage - volume - persistent data (as USB/Pen drive - comes with cost) > 
 - hard drive 
 - graphic card 
 - power supply 
