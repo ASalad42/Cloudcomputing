@@ -12,7 +12,23 @@
 
 
 ### On local host 
-Start > connect >
+
+#### On AWS
+
+<div align="center">
+  
+![image](https://user-images.githubusercontent.com/104793540/185448666-63595b2b-530c-439e-bb9a-483115eddc51.png)
+![image](https://user-images.githubusercontent.com/104793540/185448828-8e82c3a2-74c3-43cb-9fd4-b314379849a2.png)
+![image](https://user-images.githubusercontent.com/104793540/185448957-d5823f02-46a5-47ca-bbb7-8974d16c9f78.png)
+![image](https://user-images.githubusercontent.com/104793540/185449268-b5bdbc89-100a-4492-984b-928f77816059.png)
+![image](https://user-images.githubusercontent.com/104793540/185449416-5e55df12-27cc-4653-bfd7-ac43e1932491.png)
+![image](https://user-images.githubusercontent.com/104793540/185449473-00a7ee80-6b8e-45bf-8927-e225cf9b9d1a.png)
+![image](https://user-images.githubusercontent.com/104793540/185449540-1719ba44-196f-43bd-8133-2a125f4855c6.png)
+![image](https://user-images.githubusercontent.com/104793540/185449680-eac82c52-9d6b-414d-a116-6f4ad38e186e.png)
+Review and Launch 
+ </div>
+ 
+Then:
 - Open an SSH client.
 - /c/Users/Ayan/.ssh
 - Locate your private key file. The key used to launch this instance is eng122.pem
@@ -21,6 +37,10 @@ Start > connect >
 - Connect to your instance using its Public DNS:
 - `ec2-52-213-75-136.eu-west-1.compute.amazonaws.com`
 - ssh -i "eng122.pem" ubuntu@ec2-52-213-75-136.eu-west-1.compute.amazonaws.com
+
+![image](https://user-images.githubusercontent.com/104793540/185450230-0cca1290-ec53-444e-9c8b-69ebd5751b58.png)
+![image](https://user-images.githubusercontent.com/104793540/185450141-261c8cf1-2cf0-472e-9e00-5c430083b315.png)
+![image](https://user-images.githubusercontent.com/104793540/185450021-42fdb86c-ce08-4ca9-8095-3eecee9f8e5d.png)
 
 ### Inside VM
 - `Uname –a` 
