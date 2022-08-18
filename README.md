@@ -52,3 +52,11 @@ Start > connect >
 
 ![image](https://user-images.githubusercontent.com/104793540/185433908-f60bd2f3-e64b-4d61-8540-2bcd7d6852bf.png)
 
+- edit security group to add another rule to allow port 3000 to all
+
+![image](https://user-images.githubusercontent.com/104793540/185447994-e37a2989-6ef7-46ce-a329-65339f2e7204.png)
+
+![image](https://user-images.githubusercontent.com/104793540/185448188-c5bc53d3-d835-413e-9b70-8c17c682172f.png)
+
+![image](https://user-images.githubusercontent.com/104793540/185448262-a3b10648-30c3-4e1e-8fa8-b28c2d2956ef.png)
+
