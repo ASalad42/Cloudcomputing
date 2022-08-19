@@ -4,7 +4,7 @@
   </div>
   
  PowerPoint: 
-https://testingcircle-my.sharepoint.com/:p:/g/personal/asalad_spartaglobal_com/Ecl94k_ny3dBm5tcw9AXx8IBxV5V4eFhOXl6KmSXVWuy6g?email=ahskhan%40spartaglobal.com&e=JuCYHL
+https://testingcircle-my.sharepoint.com/:p:/g/personal/asalad_spartaglobal_com/Ecl94k_ny3dBm5tcw9AXx8IBQNQAkEwRAxKE8K4rIo8kUQ?e=RkzlUq
  
  Benifits 
  - cost effective
