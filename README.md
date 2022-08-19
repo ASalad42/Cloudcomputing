@@ -104,16 +104,16 @@ in app
 ![image](https://user-images.githubusercontent.com/104793540/185651951-fccd4a0b-01c5-4143-9463-3604d335dba8.png)
 
 in db 
-`sudo apt-get update` 
-`sudo apt-get upgrade` 
-`sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv D68FA50FEA312927`
-`echo "deb https://repo.mongodb.org/apt/ubuntu xenial/mongodb-org/3.2 multiverse" | sudo tee /etc/apt/sources.list.d/mongodb-org-3.2.list`
-`sudo apt-get update` 
-`sudo apt-get upgrade`
-`sudo apt-get install -y mongodb-org=3.2.20 mongodb-org-server=3.2.20 mongodb-org-shell=3.2.20 mongodb-org-mongos=3.2.20 mongodb-org-tools=3.2.20`
-`sudo systemctl restart mongod`
-`sudo systemctl enable mongod`
-`sudo systemctl status mongod`
+- `sudo apt-get update` 
+- `sudo apt-get upgrade` 
+- `sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv D68FA50FEA312927`
+- `echo "deb https://repo.mongodb.org/apt/ubuntu xenial/mongodb-org/3.2 multiverse" | sudo tee /etc/apt/sources.list.d/mongodb-org-3.2.list`
+- `sudo apt-get update` 
+- `sudo apt-get upgrade`
+- `sudo apt-get install -y mongodb-org=3.2.20 mongodb-org-server=3.2.20 mongodb-org-shell=3.2.20 mongodb-org-mongos=3.2.20 mongodb-org-tools=3.2.20`
+- `sudo systemctl restart mongod`
+- `sudo systemctl enable mongod`
+- `sudo systemctl status mongod`
 
 ![image](https://user-images.githubusercontent.com/104793540/185644311-d674444d-f0f6-49f4-97ce-a91d5cf9c1d5.png)
 
