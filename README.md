@@ -98,5 +98,28 @@ reverse proxy
 
 ![image](https://user-images.githubusercontent.com/104793540/185453023-57ca411a-a4ff-4b0a-993b-6af3a11cbc68.png)
 
+in app 
 
 ![image](https://user-images.githubusercontent.com/104793540/185642911-a63e0b3f-da0e-4628-aa51-4a52cbe0dcd4.png)
+
+in db 
+update 
+uprgade 
+sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv D68FA50FEA312927
+echo "deb https://repo.mongodb.org/apt/ubuntu xenial/mongodb-org/3.2 multiverse" | sudo tee /etc/apt/sources.list.d/mongodb-org-3.2.list
+update 
+upgrade
+`sudo apt-get install -y mongodb-org=3.2.20 mongodb-org-server=3.2.20 mongodb-org-shell=3.2.20 mongodb-org-mongos=3.2.20 mongodb-org-tools=3.2.20`
+`sudo systemctl restart mongod`
+`sudo systemctl enable mongod`
+`sudo systemctl status mongod`
+
+![image](https://user-images.githubusercontent.com/104793540/185644311-d674444d-f0f6-49f4-97ce-a91d5cf9c1d5.png)
+
+edit mongodb file cd/etc/mongod.conf cd /etc sudo nano mongod.conf go to network interfaces change to 0.0.0.0 - cant do this in production
+
+![image](https://user-images.githubusercontent.com/104793540/185644887-4f65cf74-2bab-4af7-94c1-c1f08ce9d26e.png)
+
+sudo systemctl restart mongod sudo systemctl enable mongod sudo systemctl status mongocd
+
+
