@@ -122,4 +122,5 @@ edit mongodb file cd/etc/mongod.conf cd /etc sudo nano mongod.conf go to network
 
 sudo systemctl restart mongod sudo systemctl enable mongod sudo systemctl status mongocd
 
+![image](https://user-images.githubusercontent.com/104793540/185651032-91c6c344-d6a3-4ddf-b518-9320e82080be.png)
 
