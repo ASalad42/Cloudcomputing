@@ -125,3 +125,7 @@ sudo systemctl restart mongod sudo systemctl enable mongod sudo systemctl status
 
 ![image](https://user-images.githubusercontent.com/104793540/185651032-91c6c344-d6a3-4ddf-b518-9320e82080be.png)
 
+export DB_HOST=mongodb://172.31.22.161:27017/posts
+`printenv DB_HOST`
+
+cd app cd app npm start cd seeds node seed.js cd .. npm start Refresh browser - Open browser app-ip/posts
