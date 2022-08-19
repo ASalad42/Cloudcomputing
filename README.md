@@ -97,3 +97,6 @@ reverse proxy
 - sudo systemctl restart nginx
 
 ![image](https://user-images.githubusercontent.com/104793540/185453023-57ca411a-a4ff-4b0a-993b-6af3a11cbc68.png)
+
+
+![image](https://user-images.githubusercontent.com/104793540/185642911-a63e0b3f-da0e-4628-aa51-4a52cbe0dcd4.png)
