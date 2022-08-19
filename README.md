@@ -100,7 +100,8 @@ reverse proxy
 
 in app 
 
-![image](https://user-images.githubusercontent.com/104793540/185642911-a63e0b3f-da0e-4628-aa51-4a52cbe0dcd4.png)
+
+![image](https://user-images.githubusercontent.com/104793540/185651951-fccd4a0b-01c5-4143-9463-3604d335dba8.png)
 
 in db 
 update 
