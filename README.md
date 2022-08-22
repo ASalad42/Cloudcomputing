@@ -51,7 +51,7 @@ Then:
 - `sudo apt-get update`
 - `sudo apt-get upgrade`
 - `sudo apt install nginx –y`
-- `systemctl nginx status`
+- `sudo systemctl status nginx`
 - Public IP address in ec2 instance connect
 
 ![image](https://user-images.githubusercontent.com/104793540/185434066-7a031485-3666-498d-8781-1409d624a3d2.png)
