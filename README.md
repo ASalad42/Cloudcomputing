@@ -104,6 +104,11 @@ in app
 ![image](https://user-images.githubusercontent.com/104793540/185651951-fccd4a0b-01c5-4143-9463-3604d335dba8.png)
 
 in db 
+same config but with two security groups:
+- ssh with my app
+- 27017 with app ip
+
+
 - `sudo apt-get update` 
 - `sudo apt-get upgrade` 
 - `sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv D68FA50FEA312927`
@@ -129,7 +134,9 @@ in db
 
 ![image](https://user-images.githubusercontent.com/104793540/185651032-91c6c344-d6a3-4ddf-b518-9320e82080be.png)
 
-`export DB_HOST=mongodb://172.31.22.161:27017/posts`
+back in the app vm 
+- setting up env variable:
+`export DB_HOST=mongodb://IPv4_db_ip/27017/posts`
 `printenv DB_HOST`
 
 - cd app
