@@ -109,8 +109,7 @@ in app
 
 in db 
 same config but with two security groups:
-- ssh with my app
-- 27017 with app ip
+- ssh with my db ip and 27017 with app public ip
 
 
 - `sudo apt-get update` 
@@ -140,14 +139,20 @@ same config but with two security groups:
 
 back in the app vm 
 - setting up env variable:
-`export DB_HOST=mongodb://IPv4_db_ip/27017/posts`
-`printenv DB_HOST`
-
-- cd app
+- `sudo nano .bashrc`
+- write at the bottom `export DB_HOST=mongodb://IPv4_db_ip:27017/posts`
+used public db ipv4
+- then outside run this `export DB_HOST=mongodb://IPv4_db_ip:27017/posts`
+- `printenv DB_HOST`
 - cd app 
-- npm start 
 - cd seeds 
 - node seed.js 
-- cd .. 
+
+![image](https://user-images.githubusercontent.com/104793540/186475080-11deb744-7051-4f77-91d0-a0d1e9160a15.png)
+
 - npm start 
+- in browser ip/posts
+
+![image](https://user-images.githubusercontent.com/104793540/186475362-54d5cb70-d44e-486f-9765-5ae1a3d19d7c.png)
+
 - Refresh browser - Open browser app-ip/posts
