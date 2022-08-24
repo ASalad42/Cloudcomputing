@@ -161,3 +161,8 @@ used public db ipv4
 - 
 ![image](https://user-images.githubusercontent.com/104793540/186477010-4ec0cf85-015e-4a56-a4b8-073874e665aa.png)
 
+After restarting:
+- on aws change db secuirty (app public ipv4)
+- in app change db_host for new db ip in sudo nano .bashrc
+- DB: mongod restart, enable, status
+- APP: export, printenv, npm install, npm start > recent posts works 
