@@ -71,6 +71,9 @@ Then:
 
 - `cd app`
 - `sudo apt install npm`
+- `npm install express -y`
+- `npm install mongoose -y`
+- `npm install`
 - `npm start`
 
 ![image](https://user-images.githubusercontent.com/104793540/185433908-f60bd2f3-e64b-4d61-8540-2bcd7d6852bf.png)
