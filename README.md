@@ -98,6 +98,7 @@ reverse proxy
 
 - sudo nginx -t
 - sudo systemctl restart nginx
+- go back to app folder and `npm start` again
 
 ![image](https://user-images.githubusercontent.com/104793540/185453023-57ca411a-a4ff-4b0a-993b-6af3a11cbc68.png)
 
