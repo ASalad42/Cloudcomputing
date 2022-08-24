@@ -156,3 +156,8 @@ used public db ipv4
 ![image](https://user-images.githubusercontent.com/104793540/186475362-54d5cb70-d44e-486f-9765-5ae1a3d19d7c.png)
 
 - Refresh browser - Open browser app-ip/posts
+
+- for fibonacci Open browser app-ip/fibonacci/number
+- 
+![image](https://user-images.githubusercontent.com/104793540/186477010-4ec0cf85-015e-4a56-a4b8-073874e665aa.png)
+
