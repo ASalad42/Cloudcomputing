@@ -165,3 +165,32 @@ After restarting:
 - in app change db_host for new db ip in sudo nano .bashrc
 - DB: mongod restart, enable, status
 - APP: export, printenv, npm install, npm start > recent posts works 
+
+Debugging npm for ami before asg:
+in nodeapp and database > while pages were working i did the following:
+
+- You can find running linux service under path /etc/systemd/system
+- `cd /etc/systemd/system`
+- `sudo nano npm.service`
+- add the following:
+- 
+```
+[Unit]
+Description=running npm app
+
+[Service]
+User=ubuntu
+WorkingDirectory=/home/ubuntu/deployment/app
+ExecStart=/usr/bin/npm start
+Restart=always
+
+[Install]
+WantedBy=multi-user.target
+```
+
+- `sudo systemctl daemon-reload`
+- `sudo systemctl start npm.service`
+- `sudo systemctl status npm.service`
+- `sudo systemctl enable npm.service`
+
+![image](https://user-images.githubusercontent.com/104793540/186716710-f75f542c-1ebb-453b-b2cc-c1a8dc6785cd.png)
