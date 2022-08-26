@@ -166,6 +166,8 @@ After restarting:
 - DB: mongod restart, enable, status
 - APP: export, printenv, npm install, npm start > recent posts works 
 
+![image](https://user-images.githubusercontent.com/104793540/186894235-9c91d17b-97d0-4244-ae94-1790094344d1.png)
+
 Debugging npm for ami before asg:
 in nodeapp and database > while pages were working i did the following:
 
@@ -173,7 +175,6 @@ in nodeapp and database > while pages were working i did the following:
 - `cd /etc/systemd/system`
 - `sudo nano npm.service`
 - add the following:
-- 
 ```
 [Unit]
 Description=running npm app
