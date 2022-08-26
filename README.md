@@ -111,7 +111,6 @@ in db
 same config but with two security groups:
 - ssh with my db ip and 27017 with app public ip
 
-
 - `sudo apt-get update` 
 - `sudo apt-get upgrade` 
 - `sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv D68FA50FEA312927`
