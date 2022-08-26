@@ -165,8 +165,8 @@ After restarting:
 - in app change db_host for new db ip in sudo nano .bashrc
 - DB: mongod restart, enable, status
 - APP: export, printenv, npm install, npm start > recent posts works 
+- after npm install (Database Cleared + Database Seeded) > npm start (will not work if npm.service script is running so disbale if need be)
 
-![image](https://user-images.githubusercontent.com/104793540/186894235-9c91d17b-97d0-4244-ae94-1790094344d1.png)
 
 Debugging npm for ami before asg:
 in nodeapp and database > while pages were working i did the following:
@@ -195,3 +195,6 @@ WantedBy=multi-user.target
 - `sudo systemctl enable npm.service`
 
 ![image](https://user-images.githubusercontent.com/104793540/186716710-f75f542c-1ebb-453b-b2cc-c1a8dc6785cd.png)
+
+To disable your service on every reboot:
+`sudo systemctl disable npm.service`
