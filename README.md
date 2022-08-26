@@ -198,3 +198,6 @@ WantedBy=multi-user.target
 
 To disable your service on every reboot:
 `sudo systemctl disable npm.service`
+- Disabled npm.service
+- Rebooted app ec2 > redid ssh steps
+- Working posts page
