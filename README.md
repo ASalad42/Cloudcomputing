@@ -13,7 +13,6 @@ https://testingcircle-my.sharepoint.com/:p:/g/personal/asalad_spartaglobal_com/E
  
  ![image](https://user-images.githubusercontent.com/104793540/185408317-24a0f52b-f2d7-48fe-8c82-36bee0733e22.png)
 
-
 ### On local host 
 
 #### On AWS
