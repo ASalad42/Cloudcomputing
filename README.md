@@ -6,9 +6,9 @@
  PowerPoint: 
 https://testingcircle-my.sharepoint.com/:p:/g/personal/asalad_spartaglobal_com/Ecl94k_ny3dBm5tcw9AXx8IBQNQAkEwRAxKE8K4rIo8kUQ?e=RkzlUq
  
- Benifits 
+ Benifits:
  - cost effective
- - sacalbe
+ - scalabe
  - highly available 
  
  ![image](https://user-images.githubusercontent.com/104793540/185408317-24a0f52b-f2d7-48fe-8c82-36bee0733e22.png)
